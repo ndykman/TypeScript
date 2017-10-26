@@ -1,0 +1,11 @@
+=== /a.js ===
+/** @param {...number} a */
+function f(...a) {
+>f : (...a: number[]) => void
+>a : number[]
+
+    const x = a;
+>x : number[]
+>a : number[]
+}
+
